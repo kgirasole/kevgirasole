@@ -61,14 +61,14 @@ img.meg{
   margin-right: auto;
 }
 
-img.tsc{
+img.middle{
   width: 15%;
   border: 10px solid #7D7D68;
   display:block;
   margin: 10px;
 }
 
-img.building{
+img.top{
   width: 50%;
   border: 10px solid #7D7D68;
   display: block;
@@ -76,7 +76,7 @@ img.building{
   margin-right: auto;
 }
 
-img.parking{
+img.bot{
   width: 50%;
   border: 10px solid #7D7D68;
   display: block;

@@ -66,6 +66,7 @@ img.middle{
   border: 10px solid #7D7D68;
   display:block;
   margin: 10px;
+  float: right;
 }
 
 img.top{

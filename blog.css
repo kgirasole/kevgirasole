@@ -87,7 +87,7 @@ img.bot{
 
 
 
-ul.navBar {
+#storyNav ul {
   list-style-type: none;
   font-family: "Courier New", monospace;
   margin: 0;
@@ -96,11 +96,11 @@ ul.navBar {
   border: 2px solid black;
 }
 
-ul.navBar li {
+#storyNav ul li {
   display: inline-block;
 }
 
-ul.navBar li a {
+#storyNav ul li a {
   display: block;
   color: #000000;
   text-align: center;

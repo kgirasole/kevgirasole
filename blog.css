@@ -84,5 +84,32 @@ img.bot{
   margin-left: auto;
   margin-right: auto;
 }
+ul.listNav {
+  list-style-type: none;
+  font-family: "Courier New", monospace;
+  margin: 0;
+  padding: 3px;
+  background-color: #D3D3C2;
+  border: 2px solid black;
+  text-align: center;
+}
 
+ul.listNav li {
+  display: block;
+}
+
+ul.listNav li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+ul.listNav li a:hover {
+  background-color: #E6E6D1;
+  color: #FFFFFF;
+  width: 100%
+}
 

@@ -116,6 +116,7 @@ ul.listNav li a:hover {
 #photoGal {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 #photoGal img {
   width: 10%;

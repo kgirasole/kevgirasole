@@ -112,4 +112,8 @@ ul.listNav li a:hover {
   color: #FFFFFF;
   width: 100%
 }
+#photoLibrary img {
+  height: 10%;
+  border: 10px solid #7D7D68;
+}
 

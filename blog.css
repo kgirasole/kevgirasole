@@ -112,8 +112,13 @@ ul.listNav li a:hover {
   color: #FFFFFF;
   width: 100%
 }
+
+#photoGal {
+  display: flex;
+  flex-wrap: wrap;
+}
 #photoGal img {
-  height: 10%;
+  width: 10%;
   border: 10px solid #7D7D68;
 }
 

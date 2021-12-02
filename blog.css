@@ -118,20 +118,16 @@ ul.listNav li a:hover {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-#photoGal img {
-  width: 10%;
-  border: 10px solid #7D7D68;
-}
 
-img.horizon {
-  width: 50%;
-  border: 10px solid #000;
-}
-#photoGalLong {
+#horizontalPicGal {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
+}
+#horizontalPicGal img {
+  width: 50%;
+  border: 10px solid #7D7D68;
 }
   
 

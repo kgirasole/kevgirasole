@@ -123,12 +123,14 @@ ul.listNav li a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 
 #horizontalPicGal {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: center;
 }
 #horizontalPicGal img {
   width: 35%;

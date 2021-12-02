@@ -116,7 +116,7 @@ ul.listNav li a:hover {
 #photoGal {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 #photoGal img {
   width: 10%;
@@ -126,6 +126,12 @@ ul.listNav li a:hover {
 img.horizon {
   width: 50%;
   border: 10px solid #000;
+}
+#photoGalLong {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
   
 

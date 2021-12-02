@@ -127,7 +127,6 @@ ul.listNav li a:hover {
 
 #horizontalPicGal {
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-between;
 }

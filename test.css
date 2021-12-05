@@ -49,21 +49,13 @@ background-color: #7D7D68;
 
 }
 
-ul.navBar {
-  list-style-type: none;
-  font-family: "Courier New", monospace;
-  margin: 0;
-  padding: 3px;
-  background-color: #7D7D68;
-  border: 2px solid black;
-}
-
 ul.navBar li {
+  font-family: "Courier New";
   display: flex;
   justify-content: center;
 }
 
-ul.navBar li a {
+ul.navBar ul li a {
   display: block;
   color: #000000;
   text-align: center;

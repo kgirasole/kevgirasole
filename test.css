@@ -49,22 +49,28 @@ background-color: #7D7D68;
 
 }
 
-.navBar ul {
-  background-color: #7D7D68;
-  margin: 0;
-  padding: 0;
+ul.navBar {
   list-style-type: none;
-  display: flex;
-  justify-content: center;
+  font-family: "Courier New", monospace;
+  margin: 0;
+  padding: 3px;
+  background-color: #7D7D68;
+  border: 2px solid black;
 }
 
-.navBar ul li a {
-  display: block;
-  border: 2px outset;
-  border-radius: .5em;
-  padding: .75em 1em;
-  margin: 1em;
+ul.navBar li {
+  display: inline-block;
 }
+
+ul.navBar li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  width: 240px;
+  text-decoration: none;
+}
+
 
 ul.navBar li a:hover {
   background-color: #D3D3C2;

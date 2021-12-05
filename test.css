@@ -49,21 +49,22 @@ background-color: #7D7D68;
 
 }
 
-ul.navBar li {
-  font-family: "Courier New";
+.navBar ul {
+  background-color: #7D7D68;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   display: flex;
   justify-content: center;
 }
 
-ul.navBar ul li a {
+.navBar ul li a {
   display: block;
-  color: #000000;
-  text-align: center;
-  padding: 14px 16px;
-  width: 240px;
-  text-decoration: none;
+  border: 2px outset;
+  border-radius: .5em;
+  padding: .75em 1em;
+  margin: 1em;
 }
-
 
 ul.navBar li a:hover {
   background-color: #D3D3C2;

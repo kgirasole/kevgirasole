@@ -51,16 +51,15 @@ background-color: #7D7D68;
 
 ul.navBar {
   list-style-type: none;
+  display: flex;
   font-family: "Courier New", monospace;
   margin: 0;
   padding: 3px;
   background-color: #7D7D68;
   border: 2px solid black;
+  justify-content: center;
 }
 
-ul.navBar li {
-  display: inline-block;
-}
 
 ul.navBar li a {
   display: block;

@@ -142,7 +142,7 @@ img.meImage{
 @media screen and (max-width: 900px){
 
 
-  div.footerTop{
+  div.footerTop {
     width: 100%;
     background-color: #7D7D68;
     font-family: "Courier New", monospace;
@@ -151,7 +151,7 @@ img.meImage{
     vertical-align: top;
   }
 
-  div.footerSocials{
+  div.footerSocials {
   width: 100%;
   background-color:#7D7D68;
   font-family: "Courier New", monospace;
@@ -193,27 +193,31 @@ img.meImage{
   }
 
   ul.navBar {
-    list-style-type: none;
-    font-family: "Courier New", monospace;
-    margin: 0;
-    padding: 3px;
-    background-color: #7D7D68;
-    border: 2px solid black;
-    text-align: center;
-  }
+  list-style-type: none;
+  display: flex;
+  font-family: "Courier New", monospace;
+  margin: 0;
+  padding: 3px;
+  background-color: #7D7D68;
+  border: 2px solid black;
+  justify-content: center;
+}
 
-  ul.navBar li {
-    display: block;
-    text-align: center;
-  }
 
-  ul.navBar li a {
-    display: block;
-    color: #000000;
-    text-align: center;
-    width: 100%;
-    text-decoration: none;
-  }
+ul.navBar li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+ul.navBar li a:hover {
+  background-color: #D3D3C2;
+  color: #FFFFFF;
+}
+      
   #headImg{
     background-image: url("assets/comp.jpg");
     width: 100%;
@@ -231,8 +235,6 @@ img.meImage{
   }
 }
 
-
-}
             
       </style>
       <span id="topPage"> </span>
